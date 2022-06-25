@@ -1,0 +1,124 @@
+{
+    "const": {
+        "credential": "./.account/test-ocr-353804-96ef00b6a9b5.json",
+        "tableDir": "./config/table/",
+        "tmpImageDir": "./tmp/"
+    },
+    "target": {
+        "EDF5 取得装備一覧": {
+            "table": "EDF5_WEAPON_LIST_JA.txt",
+            "trim": {
+                "range": [
+                    852,
+                    268,
+                    1306,
+                    836
+                ],
+                "base": [
+                    1920,
+                    1080
+                ]
+            }
+        },
+        "EDF5 本部　装備武器": {
+            "table": "EDF5_WEAPON_LIST_JA.txt",
+            "trim": {
+                "range": [
+                    1405,
+                    706,
+                    1670,
+                    902
+                ],
+                "base": [
+                    1920,
+                    1080
+                ]
+            }
+        },
+        "EDF4.1 取得装備一覧": {
+            "table": "EDF41_WEAPON_LIST_JA.txt",
+            "trim": {
+                "range": [
+                    427,
+                    280,
+                    1381,
+                    878
+                ],
+                "base": [
+                    1920,
+                    1080
+                ]
+            }
+        },
+        "EDF4.1 本部　装備武器": {
+            "table": "EDF41_WEAPON_LIST_JA.txt",
+            "trim": {
+                "range": [
+                    1475,
+                    710,
+                    1747,
+                    853
+                ],
+                "base": [
+                    1920,
+                    1080
+                ]
+            }
+        }
+
+    },
+    "filter": {
+        "Nomal_With_UpNew": {
+            "UP": [
+                "",
+                " UP"
+            ],
+            "NEW": [
+                "",
+                " NEW"
+            ],
+            "": [
+                "",
+                ""
+            ]
+        },
+        "Nomal": {
+            "UP": [
+                "",
+                ""
+            ],
+            "NEW": [
+                "",
+                ""
+            ],
+            "": [
+                "",
+                ""
+            ]
+        },
+        "UpNew Only": {
+            "UP": [
+                "",
+                ""
+            ],
+            "NEW": [
+                "",
+                ""
+            ]
+        },
+        "Up Reset": {
+            "UP": [
+                "-",
+                ""
+            ],
+            "NEW": [
+                "",
+                ""
+            ],
+            "": [
+                "",
+                ""
+            ]
+        }
+    }
+}
