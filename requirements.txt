@@ -1,3 +1,5 @@
-numpy
-opencv-python
+Pillow
 google-cloud-vision
+pywin32
+PySide6
+pyclip
