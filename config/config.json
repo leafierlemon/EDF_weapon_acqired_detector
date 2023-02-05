@@ -5,6 +5,36 @@
         "tmpImageDir": "./tmp/"
     },
     "target": {
+        "EDF6 取得装備一覧": {
+            "table": "EDF6_WEAPON_LIST_JA.txt",
+            "trim": {
+                "range": [
+                    852,
+                    268,
+                    1306,
+                    836
+                ],
+                "base": [
+                    1920,
+                    1080
+                ]
+            }
+        },
+        "EDF6 本部　装備武器": {
+            "table": "EDF6_WEAPON_LIST_JA.txt",
+            "trim": {
+                "range": [
+                    1405,
+                    706,
+                    1670,
+                    902
+                ],
+                "base": [
+                    1920,
+                    1080
+                ]
+            }
+        },
         "EDF5 取得装備一覧": {
             "table": "EDF5_WEAPON_LIST_JA.txt",
             "trim": {
@@ -65,7 +95,6 @@
                 ]
             }
         }
-
     },
     "filter": {
         "Nomal_With_UpNew": {
