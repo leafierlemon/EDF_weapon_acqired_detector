@@ -130,7 +130,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Ricty Diminished Discord'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\u30ad\u30e3\u30d7\u30c1\u30e3Window\uff1a</p></body></html>", None))
-        self.pushButton_copyTSV.setText(QCoreApplication.translate("MainWindow", u"Copy as TSV", None))
+        self.pushButton_copyTSV.setText(QCoreApplication.translate("MainWindow", u"Copy in TSV", None))
         self.textBrowser_output.setHtml(QCoreApplication.translate("MainWindow", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
